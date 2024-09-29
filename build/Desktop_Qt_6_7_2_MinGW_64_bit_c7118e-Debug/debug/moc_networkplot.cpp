@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../networkplot.h"
+#include "../../../include/networkplot.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>

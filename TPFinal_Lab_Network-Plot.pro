@@ -1,6 +1,6 @@
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 CONFIG += c++17
 
@@ -12,10 +12,12 @@ INCLUDEPATH += include/
 VPATH += src/
 SOURCES += \
     main.cpp \
-    src/networkplot.cpp
+    src/networkplot.cpp \
+    src/qcustomplot.cpp
 
 HEADERS += \
-    include/networkplot.h
+    include/networkplot.h \
+    include/qcustomplot.h
 
 FORMS += \
     networkplot.ui
