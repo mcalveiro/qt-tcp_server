@@ -19,9 +19,9 @@ networkplot::networkplot(QWidget *parent)
 
     // Configurar los nombres de los ejes en negrita y fuente Arial
     QFont labelFont("Arial", 10, QFont::Bold);
-    ui->customplot->xAxis->setLabel("X");
+    ui->customplot->xAxis->setLabel("Muestras");
     ui->customplot->xAxis->setLabelFont(labelFont);
-    ui->customplot->yAxis->setLabel("Y");
+    ui->customplot->yAxis->setLabel("Temperaturas");
     ui->customplot->yAxis->setLabelFont(labelFont);
 
     // Configurar el rango de los ejes

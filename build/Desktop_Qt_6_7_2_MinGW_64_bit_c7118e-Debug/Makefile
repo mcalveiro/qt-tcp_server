@@ -303,12 +303,14 @@ Makefile: ..\..\TPFinal_Lab_Network-Plot.pro D:\Qt\6.7.2\msvc2019_64\mkspecs\win
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6PrintSupport.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgets.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Gui.prl \
+		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Network.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Core.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPoint.prl \
 		D:\Qt\6.7.2\msvc2019_64\mkspecs\features\build_pass.prf \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6PrintSupportd.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.prl \
+		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Networkd.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.prl \
 		D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.prl
 	$(QMAKE) -o Makefile ..\..\TPFinal_Lab_Network-Plot.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -531,12 +533,14 @@ D:\Qt\6.7.2\msvc2019_64\mkspecs\features\lex.prf:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6PrintSupport.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgets.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Gui.prl:
+D:\Qt\6.7.2\msvc2019_64\lib\Qt6Network.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Core.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPoint.prl:
 D:\Qt\6.7.2\msvc2019_64\mkspecs\features\build_pass.prf:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6PrintSupportd.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.prl:
+D:\Qt\6.7.2\msvc2019_64\lib\Qt6Networkd.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.prl:
 D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.prl:
 qmake: FORCE

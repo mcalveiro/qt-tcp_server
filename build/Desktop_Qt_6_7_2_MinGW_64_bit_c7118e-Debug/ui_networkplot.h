@@ -39,7 +39,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(10, 10, 231, 31));
+        label->setGeometry(QRect(10, 10, 281, 31));
         QFont font;
         font.setFamilies({QString::fromUtf8("Arial")});
         font.setPointSize(14);
@@ -68,7 +68,7 @@ public:
     void retranslateUi(QMainWindow *networkplot)
     {
         networkplot->setWindowTitle(QCoreApplication::translate("networkplot", "networkplot", nullptr));
-        label->setText(QCoreApplication::translate("networkplot", "Network Plot :: TCP Data", nullptr));
+        label->setText(QCoreApplication::translate("networkplot", "Inform\303\241tica Industrial :: TP Final", nullptr));
         label_2->setText(QCoreApplication::translate("networkplot", "Alumno: Calveiro, Miguel Angel", nullptr));
     } // retranslateUi
 

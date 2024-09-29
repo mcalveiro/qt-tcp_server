@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>231</width>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>
@@ -30,7 +30,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Network Plot :: TCP Data</string>
+     <string>Informática Industrial :: TP Final</string>
     </property>
    </widget>
    <widget class="QCustomPlot" name="customplot" native="true">

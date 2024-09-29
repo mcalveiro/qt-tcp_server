@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
@@ -12,10 +12,14 @@ INCLUDEPATH += include/
 VPATH += src/
 SOURCES += \
     main.cpp \
+    src/myserver.cpp \
+    src/mythread.cpp \
     src/networkplot.cpp \
     src/qcustomplot.cpp
 
 HEADERS += \
+    include/myserver.h \
+    include/mythread.h \
     include/networkplot.h \
     include/qcustomplot.h
 
